@@ -3,7 +3,8 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} style={{
+          backgroundImage: `url("/skyline.jpg")`, height: '100vh'}}>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -21,7 +22,7 @@ export default function Home() {
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
-              height={24}
+              height={25}
               priority
             />
           </a>
